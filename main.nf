@@ -174,12 +174,8 @@ def helpMSG() {
 
     Profile:
     -profile                 standard (local, pure docker) [default]
-                             conda (mixes conda and docker)
+                             conda 
                              lsf (HPC w/ LSF, singularity/docker)
-                             nanozoo (googlegenomics and docker)  
-                             gcloudAdrian (googlegenomics and docker)
-                             gcloudChris (googlegenomics and docker)
-                             gcloudMartin (googlegenomics and docker)
                              ${c_reset}
     """.stripIndent()
 }
